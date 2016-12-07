@@ -29,4 +29,4 @@ for fileName in listdir(directory):
 			totalValenceCharge += float(valenceCharge)
 		print "Total Valence Charge: " + str(totalValenceCharge)
 		print "------------------------------------------------------"
-		close(file)
+		file.close()
